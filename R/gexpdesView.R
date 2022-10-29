@@ -52,9 +52,9 @@ GExpDesView = function() {
     print(paste('O Sistema Operacinal dectado é',Sys.info()[['sysname']],sep=" "))
 
     if(Sys.info()[['sysname']]=="Windows"){
-      install.packages("labestData_0.1.17.458.zip", repos = NULL)
+      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1.17.458.zip", repos = NULL)
     }else{
-      install.packages("labestData_0.1-17.458.tar.gz", repos = NULL)
+      install.packages("http://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1.17.458.tar.gz", repos = NULL)
     }
   }
 

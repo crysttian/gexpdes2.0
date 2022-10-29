@@ -104,15 +104,6 @@ instalar = function() {
     }
   }
 
-  if (!requireNamespace(package = "gexpdes", quietly = TRUE)) {
-
-    if(Sys.info()[['sysname']]=="Windows"){
-      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/gexpdes_2.0.zip", repos = NULL)
-    }else{
-      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/gexpdes_2.0.tar.gz", repos = NULL)
-    }
-  }
-
   #Verificando a instalacao
 
   print("############################################")
