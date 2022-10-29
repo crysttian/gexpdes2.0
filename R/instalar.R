@@ -91,17 +91,7 @@ instalar = function() {
   }
 
   if (!requireNamespace(package = "labestData", quietly = TRUE)) {
-
-    print('Detectando o sistema operacional para iniciar a instala\u00e7\u00e3o do labestData.')
-
-    print(paste('O Sistema Operacinal dectado \u00e9 o',Sys.info()[['sysname']],sep=" "))
-
-    if(Sys.info()[['sysname']]=="Windows"){
-
-      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1.17.458.zip", repos = NULL)
-    }else{
-      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1-17.458.tar.gz", repos = NULL)
-    }
+    devtools::install_git(url = "https://github.com/pet-estatistica/labestData.git")
   }
 
   #Verificando a instalacao
