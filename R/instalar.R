@@ -20,7 +20,7 @@ instalar = function() {
 
   print("Os pacotes a serem instalados s\u00e3o:")
 
-  print("Shiny")
+  print("shiny")
 
   print("shinyalert")
 
