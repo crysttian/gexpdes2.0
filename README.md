@@ -70,7 +70,14 @@ Passo 4. Se o comando realizou toda a instalação corretamente, execute o coman
 ```r
 gexpdesView()
 ```
+# Pacotes desatualizados
 
+Caso os pacotes do R no seu computador estejam desatualizados, recomendamos que rode o comando:
+
+```r
+update.packages(ask = FALSE)
+```
+A atualização poderá levar alguns minutos.
 
 # Pacotes utilizados
 
