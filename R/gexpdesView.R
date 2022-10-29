@@ -7,61 +7,69 @@
 #'
 #' @return Fun\enc{çã}{ca}o que abre a interface do GExpDes
 #'
-#' @importFrom
-#'
 #' @usage gexpdesView()
 #'
 #' @export
-GExpDesView = function() {
+gexpdesView = function() {
   if (!requireNamespace(package = "shiny", quietly = TRUE)) {
-    stop("Pacote 'shiny' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'shiny' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("shiny...................ok")
   }
 
   if (!requireNamespace(package = "shinyalert", quietly = TRUE)) {
-    stop("Pacote 'shinyalert' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'shinyalert' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("shinyalert .............ok")
+  }
+
+  if (!requireNamespace(package = "shinyjs", quietly = TRUE)) {
+    stop("Pacote 'shinyjs' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("shinyjs ................ok")
   }
 
   if (!requireNamespace(package = "readxl", quietly = TRUE)) {
-    stop("Pacote 'readxl' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'readxl' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("readxl .................ok")
   }
 
   if (!requireNamespace(package = "readODS", quietly = TRUE)) {
-    stop("Pacote 'readODS' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'readODS' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("readODS ................ok")
   }
 
   if (!requireNamespace(package = "ExpDes.pt", quietly = TRUE)) {
-    stop("Pacote 'shiny' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'ExpDes.pt' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("ExpDes.pt ..............ok")
   }
 
   if (!requireNamespace(package = "plotly", quietly = TRUE)) {
-    stop("Pacote 'plotly' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'plotly' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("plotly .................ok")
   }
 
   if (!requireNamespace(package = "agricolae", quietly = TRUE)) {
-    stop("Pacote 'agricolae' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'agricolae' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("agricolae ..............ok")
   }
 
   if (!requireNamespace(package = "agricolaeplotr", quietly = TRUE)) {
-    stop("Pacote 'agricolaeplotr' não encontrado. Instale-o, por favor.", call. = FALSE)
+    stop("Pacote 'agricolaeplotr' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("agricolaeplotr..........ok")
   }
 
-  if (!requireNamespace(package = "labestData", quietly = TRUE)) {
-
-    print('Detectando o sistema operacional para iniciar a instalação do labestData.')
-
-    print(paste('O Sistema Operacinal dectado é',Sys.info()[['sysname']],sep=" "))
-
-    if(Sys.info()[['sysname']]=="Windows"){
-      install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1.17.458.zip", repos = NULL)
-    }else{
-      install.packages("http://github.com/crysttian/gexpdes2.0/blob/main/pacotes/labestData_0.1.17.458.tar.gz", repos = NULL)
-    }
-  }
 
   if (!requireNamespace(package = "labestData", quietly = TRUE)) {
-
-    stop("Pacote 'labestData' não encontrado. Instale-o, por favor.", call. = FALSE)
-
+    stop("Pacote 'labestData' n\u00e3o encontrado. Instale-o, por favor.", call. = FALSE)
+  }else{
+    print("labestData .............ok")
   }
 
   appDir <- system.file("ShinyApps","gexpdes",package = "gexpdes")

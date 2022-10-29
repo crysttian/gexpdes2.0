@@ -1,0 +1,39 @@
+Package: gexpdes
+Title: GExpDes
+Version: 2.0
+Data: 2022-10-22
+Authors@R: c(person("Crysttian","Paixão", email="crysttianpaixao@ufba.br", role = c("aut","cre")),
+  person("Aretha","Santos",email="aretha.silva@ufba.br", role = c("aut","cre")),
+  person("Rogerio","Kormann",email="rogerio.kormann@ufsc.br", role = c("aut","cre")),
+  person("Eduardo","Rosa",email="eduardo.nunes@grad.ufsc.br", role = c("aut","cre")),
+  person("Eric","Ferreira",email="eric.ferreira@unifal-mg.edu.br", role = c("aut","cre")),
+  person("Denismar","Nogueira",email="denismar.nogueira@unifal-mg.edu.br", role = c("aut","cre")))
+Author: Crysttian Arantes Paixão [aut,cre]
+Maintainer: Crysttian Arantes Paixão <crysttianpaixao@ufba.br>
+Depends: 
+  R (>= 4.1),
+  shiny (>= 1.7.1), 
+  shinyalert (>= 3.0.0), 
+  shinyjs (>= 2.1.0),
+  readODS (>= 1.7.0), 
+  ExpDes.pt (>= 1.2.2), 
+  plotly (>= 4.10.0), 
+  readxl (>= 1.4.1),
+  agricolae (>= 1.3-5),
+  agricolaeplotr (>= 0.2.2)
+Description: Interface gráfica para o pacote ExpDes.pt.
+Imports:
+  shiny (>= 1.7.1), 
+  shinyalert (>= 3.0.0), 
+  shinyjs (>= 2.1.0),
+  readODS (>= 1.7.0), 
+  ExpDes.pt (>= 1.2.2), 
+  plotly (>= 4.10.0), 
+  readxl (>= 1.4.1),
+  agricolae (>= 1.3-5),
+  agricolaeplotr (>= 0.2.2)
+License: use_gpl3_license()
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+        
