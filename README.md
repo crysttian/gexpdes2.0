@@ -57,15 +57,20 @@ Passo 2. Execute o comando
 library(devtools)
 install_git(url = "https://github.com/crysttian/gexpdes2.0.git")
 ```
-Passo 3. Após a confirmação de instalação do pacote, execute:
+Passo 3. Após a confirmação de instalação do pacote, execute o comando **instalar()** para realizar a instalação dos pacotes necessários para o GExpDES. 
 
 ```r
 library(gexpdes)
 
-instalar() #instala as dependências do GExpDes
-
-gexpdesView()```#Abre a interface do GExpDes
+instalar()
 ```
+
+Passo 4. Se o comando realizou toda a instalação corretamente, execute o comando para abrir a interface do GExpDEs:
+
+```r
+gexpdesView()
+```
+
 
 # Pacotes utilizados
 
