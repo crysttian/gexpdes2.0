@@ -94,7 +94,7 @@ instalar = function() {
 
     print('Detectando o sistema operacional para iniciar a instala\u00e7\u00e3o do labestData.')
 
-    print(paste('O Sistema Operacinal dectado \u00e9',Sys.info()[['sysname']],sep=" "))
+    print(paste('O Sistema Operacinal dectado \u00e9 o',Sys.info()[['sysname']],sep=" "))
 
     if(Sys.info()[['sysname']]=="Windows"){
 
@@ -183,9 +183,9 @@ instalar = function() {
 
   print("Rode os comandos dentro do seu script do R para usar o GExpDes:")
 
-  print("library(gexpdes")
+  print("library(gexpdes)")
 
-  print("GExpDesView()")
+  print("gexpdesView()")
 
   print("A Equipe GExpDes agradece o seu interesse em utilizar a nossa interface.")
 

@@ -77,7 +77,7 @@ gexpdesView = function() {
   print(appDir)
 
   if (appDir == "") {
-    stop("Não foi possível encontrar o diretório com o GExpDes, ocorreu algum erro na instalação. Por favor, instale-o.",call. = FALSE)
+    stop("N\u00e3o foi poss\u00edvel encontrar o diret\u00f3rio com o GExpDes, ocorreu algum erro na instala\u00e7\u00e3o. Por favor, instale-o.",call. = FALSE)
   }
 
   shiny::runApp(appDir, display.mode = "normal")

@@ -20,7 +20,8 @@ Depends:
   ExpDes.pt (>= 1.2.2), 
   plotly (>= 4.10.0), 
   agricolae (>= 1.3-5),
-  agricolaeplotr (>= 0.2.2)
+  agricolaeplotr (>= 0.2.2),
+  devtools (>= 2.4.5)
 Description: Interface gráfica para o pacote ExpDes.pt.
 Imports:
   shiny (>= 1.7.3), 
@@ -31,7 +32,8 @@ Imports:
   ExpDes.pt (>= 1.2.2), 
   plotly (>= 4.10.0), 
   agricolae (>= 1.3-5),
-  agricolaeplotr (>= 0.2.2)
+  agricolaeplotr (>= 0.2.2),
+  devtools (>= 2.4.5)
 License: use_gpl3_license()
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
