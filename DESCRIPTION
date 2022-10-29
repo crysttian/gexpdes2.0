@@ -23,7 +23,7 @@ Depends:
   agricolaeplotr (>= 0.2.2)
 Description: Interface gráfica para o pacote ExpDes.pt.
 Imports:
-  shiny (>= 1.7.1), 
+  shiny (>= 1.7.3), 
   shinyalert (>= 3.0.0), 
   shinyjs (>= 2.1.0),
   readxl (>= 1.4.1),
