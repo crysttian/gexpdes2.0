@@ -45,33 +45,27 @@ Melhoramos a instalação do pacote, que agora é mais simples.
 
 Abra o R (ou RStudio):
 
-- Windows: 
-
 Passo 1. Execute o comando 
 
 ```r
-install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/gexpdesinstalacao_1.0.0.zip", repos = NULL)
+install.packages("devtools",dependencies = TRUE)
 ```
 
-Passo 2. Execute o **gexpdesinstalacao::instalar()**, aguarde pois serão instalados todos os pacotes necessários para o GExpDes funcionar.
-
-Passo 3. Execute os comandos **library(gexpdes)**, na sequência **GExpDesView()** e o GExpDes abrirá em seu computador.
-
-- Linux e Mac: 
-
-Passo 1. Execute o comando 
+Passo 2. Execute o comando
 
 ```r
-install.packages("https://github.com/crysttian/gexpdes2.0/blob/main/pacotes/gexpdesinstalacao_1.0.0.tar.gz", repos = NULL)
+library(devtools)
+install_git(url = "https://github.com/crysttian/gexpdes2.0.git")
 ```
+Passo 3. Após a confirmação de instalação do pacote, execute:
 
-Passo 2. Execute o **gexpdesinstalacao::instalar()**, aguarde pois serão instalados todos os pacotes necessários para o GExpDes funcionar.
+```r
+library(gexpdes)
 
-Passo 3. Execute os comandos **library(gexpdes)**, na sequência **GExpDesView()** e o GExpDes abrirá em seu computador.
+instalar() #instala as dependências do GExpDes
 
-## Instalando a interface gráfica via arquivo executável (Somente para Windows)
-
-Em breve.
+gexpdesView()```#Abre a interface do GExpDes
+```
 
 # Pacotes utilizados
 
