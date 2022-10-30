@@ -51,7 +51,7 @@ Passo 1. Execute o comando
 install.packages("devtools",dependencies = TRUE)
 ```
 
-Passo 2. Execute o comando
+Passo 2. Execute os comandos
 
 ```r
 library(devtools)
@@ -65,11 +65,12 @@ library(gexpdes)
 instalar()
 ```
 
-Passo 4. Se o comando realizou toda a instalação corretamente, execute o comando para abrir a interface do GExpDEs:
+Passo 4. Se o comando **instalar()** realizou toda a instalação corretamente, execute o próximo comando para abrir a interface do GExpDes:
 
 ```r
 gexpdesView()
 ```
+
 # Pacotes desatualizados
 
 Caso os pacotes do R no seu computador estejam desatualizados, recomendamos que rode o comando:
@@ -106,9 +107,9 @@ Para informações sobre os pacotes, digite **citation("pacote").
 
 # Sugestões e erros
 
-O R como é um software colaborativo, gostaríamos de ter a sua colabração, seja relatando erros que encontrou ou sugestões na interface. Essa nova versão só foi possível em decorrência dos relatos que recebemos.
+O R por ser um software colaborativo, gostaríamos de ter a sua colabração seja relatando erros que encontrou ou sugestões na interface. Essa nova versão só foi possível em decorrência dos relatos que recebemos de vários usuários.
 
-- Caso encontre algum erro ou tenha uma sugestão, solicitamos que nos envie um e-mail para gexpdes@gmail.com 
+- Caso encontre algum erro ou tenha uma sugestão, solicitamos que nos envie um e-mail para **gexpdes@gmail.com** 
 
 - Caso deseje, temos um grupo do Telegram, que pode ser acessado pelo qrcode abaixo. Os desenvolvedores estão no grupo e você poderá falar diretamente conosco.
 
