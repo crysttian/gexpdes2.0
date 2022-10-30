@@ -115,7 +115,11 @@ O R por ser um software colaborativo, gostaríamos de ter a sua colabração sej
 
 ![](ajustada.png)
 
-## Notas da versão
+# Como citar a interface em seus trabalhos?
+
+KORMANN, R.; MASSAD, E.; PAIXÃO, C. A.; FERREIRA, E. B.; NOGUEIRA, D. A. GExpDes: Interface Gráfica para o ExpDes. SIGMAE, v. 8, p. 170-179, 2019.
+
+# Notas da versão
 
 Melhorias implementadas:
 
