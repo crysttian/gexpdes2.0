@@ -2,7 +2,7 @@
 % Please edit documentation in R/instalar.R
 \name{instalar}
 \alias{instalar}
-\title{Func\enc{çã}{ca}o Instalar}
+\title{Fun\enc{çã}{ca}o Instalar}
 \usage{
 instalar()
 }

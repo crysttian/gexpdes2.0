@@ -2,7 +2,7 @@
 % Please edit documentation in R/gexpdesView.R
 \name{gexpdesView}
 \alias{gexpdesView}
-\title{Func\enc{çã}{ca}o gexpdesView}
+\title{Fun\enc{çã}{ca}o gexpdesView}
 \usage{
 gexpdesView()
 }
@@ -10,7 +10,7 @@ gexpdesView()
 Fun\enc{çã}{ca}o que abre a interface do GExpDes
 }
 \description{
-Esta fun\enc{çã}{ca}o exibe a insterface do GExpDes.
+Esta fun\enc{çã}{ca}o exibe a interface do GExpDes.
 }
 \author{
 Crystian Paix\enc{ã}{a}o
