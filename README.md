@@ -41,6 +41,8 @@ A interface é executada direto de um servidor web não sendo necessário ter o 
 
 É necessário ter o R instalado ([**Instalação do R**](http://cran.r-project.org/)) na versão 4.21, ou superior. Recomendamos que o RStudio também seja instalado ([**Instalação do RStudio**](https://www.rstudio.com/)) na versão 2022.07.2+554 ou superior.
 
+Como o pacote será gerado, os usuários de Windows devem instalar o Rtools ([**Instalação do Rtools**](https://cran.r-project.org/bin/windows/Rtools/)), versão 4.2 ou superior. 
+
 Melhoramos a instalação do pacote, que agora é mais simples.
 
 Abra o R (ou RStudio):
