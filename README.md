@@ -39,7 +39,7 @@ A interface é executada direto de um servidor web não sendo necessário ter o 
 
 ## Instalando o pacote
 
-É necessário ter o R instalado ([**Instalação do R**](http://cran.r-project.org/)). Recomendamos que o RStudio também seja instalado ([**Instalação do RStudio**](https://www.rstudio.com/)).
+É necessário ter o R instalado ([**Instalação do R**](http://cran.r-project.org/)) na versão 4.21, ou superior. Recomendamos que o RStudio também seja instalado ([**Instalação do RStudio**](https://www.rstudio.com/)) na versão 2022.07.2+554 ou superior.
 
 Melhoramos a instalação do pacote, que agora é mais simples.
 
@@ -68,6 +68,24 @@ instalar()
 Passo 4. Se o comando **instalar()** realizou toda a instalação corretamente, execute o próximo comando para abrir a interface do GExpDes:
 
 ```r
+gexpdesView()
+```
+
+## Caso não funcione, sugerimos que execute os comandos
+
+```r
+library(devtools)
+
+Sys.unsetenv("GITHUB_PAT")
+
+library(devtools)
+
+install_git(url = "https://github.com/crysttian/gexpdes2.0.git",force = TRUE)
+
+library(gexpdes)
+
+instalar()
+
 gexpdesView()
 ```
 
