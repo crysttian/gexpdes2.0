@@ -50,7 +50,7 @@ ui <- fluidPage(
 
                                           br(),
 
-                                          actionButton("ir_site", "Site do GExpDes", icon=icon("fa-solid fa-globe",verify_fa = FALSE), class="btn btn-primary", width="65%"),
+                                          actionButton("ir_site", "Site do GExpDes", icon=icon("globe",verify_fa = FALSE), class="btn btn-primary", width="65%"),
 
                                           br(),
 
@@ -1233,7 +1233,7 @@ ui <- fluidPage(
 
                                           ),
 
-                                          actionButton("gerar_croqui", "Gerar Croqui", icon= icon("fa-solid fa-gears", verify_fa = FALSE),class="btn btn-primary", width="65%"),
+                                          actionButton("gerar_croqui", "Gerar Croqui", icon= icon("gears", verify_fa = FALSE),class="btn btn-primary", width="65%"),
 
                                           br(),
 
