@@ -145,7 +145,7 @@ ui <- fluidPage(
 
                                                             fileInput(inputId='arquivo_csv', label="Selecionar o arquivo",accept = ".csv"),
 
-                                                            radioButtons("radio_arquivo_csv_separador","Separador de valores", c("Vírgula"=",","Ponto e vírgula"=";","Tabulação"="\\t"), selected=";", inline= FALSE ),
+                                                            radioButtons("radio_arquivo_csv_separador","Separador de valores", c("Vírgula"=",","Ponto e vírgula"=";","Tabulação"="\t"), selected=";", inline= FALSE ),
 
                                                             radioButtons("radio_arquivo_csv_decimal","Separador decimal", c("Vírgula"=",","Ponto"="."),  selected=",", inline= FALSE )
 
