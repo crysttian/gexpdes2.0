@@ -1263,7 +1263,7 @@ ui <- fluidPage(
 
                        sidebarLayout(
 
-                         sidebarPanel("Equipe",
+                         sidebarPanel(
 
                                       fluidRow(
 
